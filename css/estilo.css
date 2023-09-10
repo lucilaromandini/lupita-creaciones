@@ -6,15 +6,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
-.tamLogo{
+header img {
+    width: 100%;
+  }
+
+.tamLogo {
     width: 120px;
 }
 
-.carrito{
+.carrito {
     height: 20px;
     width: auto;
-    display: flex;
-    padding-left: 30px;
+    /* padding-left: 30px;     */
+    margin-left: auto;
 }
 
 .fuentesNav {
@@ -24,21 +28,33 @@
 
 header {
     border-bottom: solid 5px #e9e7e9;
-    background-color:#944e82;
+    background-color: #944e82;
 }
 
-.nav-item a{
+.nav-item a {
     color: #fefefe;
 }
 
 .menu {
     text-decoration: none;
-    background-image: linear-gradient(#f0edef,#f0edef);
+    background-image: linear-gradient(#f0edef, #f0edef);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
 }
+
+.dropdown-menu {
+    background-color: #944e82;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus{
+    background-color:#944e82;
+    color: #fefefe;
+}
+
+
 
 .menu:hover,
 .menu:focus {
@@ -47,16 +63,17 @@ header {
 }
 
 .navbar-toggler {
-    background-color: transparent; 
-    border: 2px solid #fff; 
-    border-radius: 4px; 
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-h1,h2{
+h1,
+h2 {
     margin-top: 40px;
     padding: 20px 50px;
     color: #d47fbf;
@@ -85,7 +102,7 @@ h1,h2{
 }
 
 @media (min-width:400px) and (max-width: 960px) {
-    .contenedorVideo{
+    .contenedorVideo {
         width: auto;
     }
 }
@@ -94,6 +111,7 @@ h1,h2{
 
 .accesoDirectoCuadros {
     /* padding: 20px 20px; */
+    padding: 20px 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -104,7 +122,7 @@ h1,h2{
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
-    border:  #944e82 solid 2px;
+    border: #944e82 solid 2px;
 }
 
 .accesoDirectoCuadros figure p {
@@ -148,7 +166,6 @@ h2 {
         font-size: 1rem;
     } */
 }
-
 /* CARDS PRODUCTOS */
 
 .card {
@@ -184,7 +201,7 @@ h2 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: rgb(10, 10, 10);
+    color: black;
     text-align: center;
 }
 
@@ -193,7 +210,7 @@ form label {
     margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 20px;
-    color: rgb(10, 10, 10);
+    color: black;
     font-weight: bold;
     font-size: 18px;
 }
@@ -227,6 +244,39 @@ form textarea {
     border-radius: 5px;
     margin-bottom: 50px;
 }
+
+.contenedorContactoPage{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "formulario" "ubicacion";
+        gap: 10px;
+      }
+
+/* @media (min-width:400px) and (max-width: 960px) {
+    .contenedorContactoPage {
+        padding: 0 15px; 
+    }
+    
+    #nombre, #email, #mensaje {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+
+    .map{
+        padding: 0 15px; 
+
+    }
+} */
+
+
+
+
+
+
 
 /* FOOTER */
 
@@ -313,12 +363,12 @@ img {
     padding-left: 0px;
     margin: 0px;
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
 }
 
 .footerSocialMedia li {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .uk-flex-row {
@@ -355,7 +405,7 @@ li {
     color: rgb(10, 10, 10);
 }
 
-.footerInfo li{
+.footerInfo li {
     margin-bottom: 10px;
 }
 
@@ -368,9 +418,15 @@ li {
         width: auto;
 
     }
-   
-    .footerSocialMedia{
-        width: auto ;    
+
+    .footerSocialMedia {
+        width: auto;
     }
 }
 
+.contenedorContactoPage {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "actions" "filters" "prod1" "prod2" "prod3" "prod4";
+    gap: 10px;
+  }
