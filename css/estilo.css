@@ -84,18 +84,21 @@ h1 {
     width: 100%;
     padding-bottom: 56.25%;
     overflow: hidden;
-    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    flex: auto;
 }
 
 .youtube-video {
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     width: 90%;
     height: 90%;
     border: none;
     padding: 40px 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 @media (min-width:400px) and (max-width: 960px) {
@@ -196,7 +199,7 @@ h2 {
     font-size: 1,5rem;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:#944e82;
+    color:#d47fbf;
     text-align: center;
 }
 
