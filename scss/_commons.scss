@@ -1,0 +1,181 @@
+// Footer
+
+footer {
+    border-top: 3px solid $mainColor;
+    /* background-color: #edbded; */
+    display: block;
+
+    .uk-container {
+        max-width: 1400px;
+        display: flow-root;
+        box-sizing: content-box;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-between;
+
+        &>:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .Items {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px 30px 0px;
+        box-sizing: border-box;
+    }
+
+    .Item {
+        margin-bottom: 15px;
+    }
+
+    .footerPayment {
+        width: 275px;
+    }
+
+    h5 {
+        font-size: $fontSm;
+        font-weight: $fontBold;
+        margin: 10px 0px 15px 0px;
+        line-height: 1.4;
+        display: block;
+        font-size: 0.83em;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .footerIcon {
+        width: auto;
+        height: 20px;
+        margin: 0px 5px 5px 0px;
+        flex-wrap: wrap;
+    }
+
+    ul li a img {
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        vertical-align: middle;
+    }
+
+    .footerSocialMedia {
+        padding-left: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        & li {
+            margin-right: 10px;
+        }
+    }
+
+    .uk-flex-row {
+        flex-direction: row;
+    }
+
+    .uk-flex {
+        display: flex;
+        list-style: none;
+        padding-left: 30px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+
+        & li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+    }
+
+    .footerInfo {
+        padding-left: 0px;
+        text-decoration: none;
+        text-align: none;
+        display: flex;
+        flex-direction: column;
+        display: list-item;
+        color: $keyColor;
+
+        & li {
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+// Navbar
+nav {
+    border-bottom: solid 5px $white;
+    background-color: $mainColor;
+
+    img {
+        width: 100%;
+    }
+
+    a .tamLogo {
+        width: 120px;
+    }
+
+    .carrito {
+        height: 20px;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .fuentesNav {
+        font-size: $fontMd;
+        padding-left: 3rem;
+    }
+
+    .nav-item a {
+        color: $white;
+    }
+
+    .menu {
+        text-decoration: none;
+        background-image: linear-gradient($white, $white);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+
+        &:hover,
+        &:focus {
+            background-size: 100% 2px;
+            color: $white;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $mainColor;
+    }
+
+    .dropdown-item:hover,
+    &:focus {
+        background-color: $mainColor;
+        color: $white;
+    }
+
+    .navbar-toggler {
+        background-color: transparent;
+        border: 2px solid $white;
+        border-radius: 4px;
+
+        &-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    }
+
+
+}
