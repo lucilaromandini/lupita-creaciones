@@ -17,7 +17,7 @@ nav a .tamLogo {
 nav .carrito {
     height: 20px;
     width: auto;
-    /* padding-left: 30px;     */
+    padding-left: 30px;    
     margin-left: auto;
 }
 
@@ -74,7 +74,7 @@ h1 {
     margin-top: 40px;
     padding: 20px 50px;
     color: #d47fbf;
-    font-size: 50px;
+    font-size: 2em;
     text-align: center;
     font-family: 'Grand Hotel', cursive;
 }
@@ -147,7 +147,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1em;
     margin-bottom: 10px 0;
     /* color: #de7cc6; */
     /* padding: 50px 50px; */
@@ -196,7 +196,7 @@ h2 {
 }
 
 .componenteContactoPage h4 {
-    font-size: 1,5rem;
+    font-size: 1,5em;
     margin-top: 20px;
     margin-bottom: 20px;
     color:#d47fbf;
@@ -327,6 +327,7 @@ footer {
     font-size: 1.1rem;
     font-weight: bold;
     margin: 10px 0px 15px 0px;
+    color: #add33a;
 }
 
 h5 {
@@ -339,6 +340,7 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+   
 }
 
 .footerIcon {
