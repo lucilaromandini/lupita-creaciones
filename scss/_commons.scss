@@ -1,8 +1,37 @@
+* {
+    font-family: $mainFont;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    @include Titulos(size, align, color, paddding, margin-top);
+    font-family: $mainFont;
+}
+
+p {
+    font-size: $fontMd;
+    font-weight: $fontBold;
+    margin-top: 20px;
+
+}
+
+header {
+    width: 100%;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
 // Footer
 
 footer {
     border-top: 3px solid $mainColor;
-    /* background-color: #edbded; */
     display: block;
 
     .uk-container {
@@ -37,7 +66,7 @@ footer {
     }
 
     h5 {
-        font-size: $fontSm;
+        font-size: $fontXl;
         font-weight: $fontBold;
         margin: 10px 0px 15px 0px;
         line-height: 1.4;

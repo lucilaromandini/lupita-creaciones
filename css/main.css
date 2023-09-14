@@ -1,7 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2, 5em;
+  text-align: center;
+  color: rgb(212, 127, 191);
+  padding: 20px 50px;
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1, 8em;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+header {
+  width: 100%;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   border-top: 3px solid rgb(148, 78, 130);
-  /* background-color: #edbded; */
   display: block;
 }
 footer .uk-container {
@@ -31,7 +61,7 @@ footer .footerPayment {
   width: 275px;
 }
 footer h5 {
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 600;
   margin: 10px 0px 15px 0px;
   line-height: 1.4;
@@ -113,7 +143,7 @@ nav .carrito {
   margin-left: auto;
 }
 nav .fuentesNav {
-  font-size: 1, 5em;
+  font-size: 1, 8em;
   padding-left: 3rem;
 }
 nav .nav-item a {
@@ -145,6 +175,77 @@ nav .navbar-toggler {
 }
 nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.accesoDirectoCuadros {
+  padding: 20px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.accesoDirectoCuadros figure {
+  width: 30%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  border: rgb(148, 78, 130) solid 2px;
+}
+.accesoDirectoCuadros p {
+  text-align: center;
+}
+.accesoDirectoCuadros .btn {
+  border: none;
+  background-color: rgb(148, 78, 130);
+  color: rgb(254, 254, 254);
+  border-radius: 5px;
+  margin: 3px 0;
+}
+.accesoDirectoCuadros .btn:hover {
+  cursor: pointer;
+  color: rgb(254, 254, 254);
+  background-color: rgb(144, 60, 123);
+}
+
+.card {
+  margin: 1rem;
+  text-align: center;
+  border: rgb(212, 127, 191) solid 2px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 10px 0;
+  font-family: "Bad Scrip";
+  font-weight: 600;
+}
+
+.card .btn {
+  border: none;
+  background-color: rgb(148, 78, 130);
+  color: rgb(254, 254, 254);
+  border-radius: 5px;
+  margin: 3px 0;
+}
+.card .btn:hover {
+  cursor: pointer;
+  color: rgb(254, 254, 254);
+  background-color: rgb(144, 60, 123);
+}
+
+.promo {
+  text-decoration: line-through;
+  color: rgb(148, 78, 130);
+}
+
+@media (min-width: 400px) and (max-width: 960px) {
+  .accesoDirectoCuadros figure {
+    width: 100%;
+  }
+  .accesoDirectoCuadros btn {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

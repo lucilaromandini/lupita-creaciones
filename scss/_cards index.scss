@@ -1,0 +1,32 @@
+.accesoDirectoCuadros {
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    figure {
+        width: 30%;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        border: $mainColor solid 2px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .btn {
+        border: none;
+        background-color: $mainColor;
+        color: $white;
+        border-radius: 5px;
+        margin: 3px 0;
+
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            background-color: $btnHover;
+        }
+    }
+}

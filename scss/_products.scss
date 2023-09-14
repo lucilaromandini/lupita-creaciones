@@ -1,0 +1,31 @@
+.card {
+    @include Cards(1rem, center, border, 5px)
+}
+
+h2{
+    @include Textos(center,font-size,10px 0);
+    font-family: $secondaryFont;
+    font-weight: $fontBold;
+}
+
+.card {
+    .btn {
+        border: none;
+        background-color: $mainColor;
+        color: $white;
+        border-radius: 5px;
+        margin: 3px 0;
+
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            background-color: $btnHover;
+        }
+    }
+
+}
+
+.promo {
+    text-decoration: line-through;
+    color: $mainColor;
+}

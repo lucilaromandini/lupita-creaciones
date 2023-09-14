@@ -1,0 +1,41 @@
+@mixin Titulos($size,$align,$color,$paddding,$margin-top){    
+    font-size:$fontXxl;
+    text-align: center;
+    color: $secondaryColor;
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+
+@mixin Cards($margin,$align,$border,$radius){
+margin:$margin;
+text-align: $align;
+border: $secondaryColor solid 2px ;
+border-radius: $radius;
+}
+
+@mixin Textos($align,$Size,$margin){
+text-align: $align;
+font-size: $fontSm;
+margin-bottom: $margin;
+}
+
+// .header-gral{
+//     height: 40vh;
+//     width: 100vw;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-image: url(../img/cuadrosanimalescarousel.png);
+// }
+// .header-admin{
+//     @extend .header-gral;
+//     background-image: url(../img/cuadrosfloralcarousel.png);
+// }
+// .header-contact{
+//     @extend .header-gral;
+//     background-image: url(../img/arcoiriscarousel.png);
+// }
+// .header-product{
+//     @extend .header-gral;
+//     background-image: url(../img/headercuadros.png);
+// }
