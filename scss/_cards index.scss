@@ -1,3 +1,6 @@
+
+ /* Cards index */
+
 .accesoDirectoCuadros {
     padding: 20px 15px;
     display: flex;
@@ -12,9 +15,11 @@
         border: $mainColor solid 2px;
     }
 
-    p {
-        text-align: center;
-    }
+    // figcaption {
+    //     font-size: $fontMd;
+    //     text-align: center;
+    //     padding-bottom: 10px;
+    // }
 
     .btn {
         border: none;

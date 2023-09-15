@@ -1,0 +1,23 @@
+
+/* Video index */
+
+.contenedorVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex: auto;
+    .youtube-video {
+        position: absolute;
+        top: 0;
+        left: 0; 
+        width: 90%;
+        height: 90%;
+        border: none;
+        padding: 40px 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

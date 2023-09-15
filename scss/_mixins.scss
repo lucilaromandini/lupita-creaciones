@@ -1,5 +1,5 @@
-@mixin Titulos($size,$align,$color,$paddding,$margin-top){    
-    font-size:$fontXxl;
+@mixin Titulos($size,$align,$color,$paddding,$margin){    
+    font-size:$fontMd;
     text-align: center;
     color: $secondaryColor;
     padding: 20px 50px;
@@ -13,11 +13,19 @@ border: $secondaryColor solid 2px ;
 border-radius: $radius;
 }
 
-@mixin Textos($align,$Size,$margin){
+@mixin Textos($weight,$align,$Size,$margin,){
+font-weight: $fontBold;
 text-align: $align;
 font-size: $fontSm;
-margin-bottom: $margin;
+margin: $margin;
 }
+
+@mixin TextosPrecio($align,$Size,$margin,){
+    // font-weight: $fontBold;
+    text-align: $align;
+    font-size: $fontXs;
+    margin: $margin;
+    }
 
 // .header-gral{
 //     height: 40vh;

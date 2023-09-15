@@ -11,11 +11,12 @@ h1 {
     font-family: $mainFont;
 }
 
-p {
-    font-size: $fontMd;
-    font-weight: $fontBold;
-    margin-top: 20px;
+h2{
+    @include TextosPrecio(center,font-size,10px,)
+}
 
+h3{
+    @include TextosPrecio(center,font-size,10px,)
 }
 
 header {
@@ -28,122 +29,79 @@ header {
 }
 
 
-// Footer
+/* footer */
 
-footer {
+.footer {
+    padding: 20px 0;
+    text-align: center;
     border-top: 3px solid $mainColor;
-    display: block;
+    background-color: $mainColor;
 
-    .uk-container {
-        max-width: 1400px;
-        display: flow-root;
-        box-sizing: content-box;
+    .footerContainer {
         max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        justify-content: space-between;
-
-        &>:last-child {
-            margin-bottom: 0;
-        }
+        margin: 0 auto;
     }
 
-    .Items {
+    .footerItems {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        padding: 20px 0px 30px 0px;
-        box-sizing: border-box;
     }
 
-    .Item {
-        margin-bottom: 15px;
+    .footerItem {
+        flex: 1;
+        padding: 10px;
+        text-align: left;
     }
 
-    .footerPayment {
-        width: 275px;
+    .footerItem h5 {
+        font-size: $fontMd;
+        color: $white;
+        margin-bottom: 10px;
     }
 
-    h5 {
-        font-size: $fontXl;
-        font-weight: $fontBold;
-        margin: 10px 0px 15px 0px;
-        line-height: 1.4;
-        display: block;
-        font-size: 0.83em;
-        margin-block-start: 1.67em;
-        margin-block-end: 1.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+    .footerIcons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .footerIcon {
-        width: auto;
-        height: 20px;
-        margin: 0px 5px 5px 0px;
-        flex-wrap: wrap;
-    }
-
-    ul li a img {
-        max-width: 100%;
-        height: auto;
-        box-sizing: border-box;
-        overflow-clip-margin: content-box;
-        overflow: clip;
-        vertical-align: middle;
+        max-width: 40px;
+        max-height: 40px;
     }
 
     .footerSocialMedia {
-        padding-left: 0px;
-        margin: 0px;
+        list-style: none;
         display: flex;
-        flex-direction: row;
         align-items: center;
+        padding-left: 0px;
 
         & li {
             margin-right: 10px;
         }
-    }
 
-    .uk-flex-row {
-        flex-direction: row;
-    }
-
-    .uk-flex {
-        display: flex;
-        list-style: none;
-        padding-left: 30px;
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 40px;
-
-        & li {
-            display: list-item;
-            text-align: -webkit-match-parent;
+        & a {
+            color: $white;
+            text-decoration: none;
         }
     }
 
     .footerInfo {
         padding-left: 0px;
-        text-decoration: none;
-        text-align: none;
-        display: flex;
-        flex-direction: column;
-        display: list-item;
-        color: $keyColor;
+        list-style: none;
+        margin-top: 5px;
 
-        & li {
-            margin-bottom: 10px;
+        & a {
+            color: $white;
+            text-decoration: none;
         }
     }
-
 }
 
-// Navbar
+
+/* Navbar */
+
 nav {
     border-bottom: solid 5px $white;
     background-color: $mainColor;
@@ -179,8 +137,7 @@ nav {
         background-size: 0% 2px;
         transition: background-size .3s;
 
-        &:hover,
-        &:focus {
+        &:hover,&:focus {
             background-size: 100% 2px;
             color: $white;
         }
