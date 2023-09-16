@@ -11,13 +11,31 @@ h1 {
     font-family: $mainFont;
 }
 
-h2{
-    @include TextosPrecio(center,font-size,10px,)
+h2,
+h3,
+h4 {
+    @include TextosPrecio(center, font-size, 10px, );
 }
 
-h3{
-    @include TextosPrecio(center,font-size,10px,)
+h5 {
+    font-family: $secondaryFont;
+    color: $secondaryColor;
+    font-size: $fontMd;
 }
+
+h6{
+    text-align: left;
+    font-weight: $fontBold;
+   }
+
+.card-text {
+    p {
+        text-align: left;
+        text-justify: auto;
+    }
+}
+
+/* Header */
 
 header {
     width: 100%;
@@ -28,6 +46,70 @@ header {
     }
 }
 
+/* Navbar */
+
+nav {
+    border-bottom: solid 5px $white;
+    background-color: $mainColor;
+
+    img {
+        width: 100%;
+    }
+
+    a .tamLogo {
+        width: 120px;
+    }
+
+    .carrito {
+        height: 20px;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .fuentesNav {
+        font-size: $fontMd;
+        padding-left: 3rem;
+    }
+
+    .nav-item a {
+        color: $white;
+    }
+
+    .menu {
+        text-decoration: none;
+        background-image: linear-gradient($white, $white);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+
+        &:hover,
+        &:focus {
+            background-size: 100% 2px;
+            color: $white;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $mainColor;
+    }
+
+    .dropdown-item:hover,
+    &:focus {
+        background-color: $mainColor;
+        color: $white;
+    }
+
+    .navbar-toggler {
+        background-color: transparent;
+        border: 2px solid $white;
+        border-radius: 4px;
+
+        &-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    }
+}
 
 /* footer */
 
@@ -55,7 +137,7 @@ header {
     }
 
     .footerItem h5 {
-        font-size: $fontMd;
+        font-size: $fontSm;
         color: $white;
         margin-bottom: 10px;
     }
@@ -99,69 +181,15 @@ header {
     }
 }
 
+/* Error 404 */
 
-/* Navbar */
-
-nav {
-    border-bottom: solid 5px $white;
-    background-color: $mainColor;
+.error404 {
+    text-align: center;
+    margin-top: 100px;
 
     img {
-        width: 100%;
+        max-width: 90%;
+        display: block;
+        margin: 0 auto;
     }
-
-    a .tamLogo {
-        width: 120px;
-    }
-
-    .carrito {
-        height: 20px;
-        width: auto;
-        margin-left: auto;
-    }
-
-    .fuentesNav {
-        font-size: $fontMd;
-        padding-left: 3rem;
-    }
-
-    .nav-item a {
-        color: $white;
-    }
-
-    .menu {
-        text-decoration: none;
-        background-image: linear-gradient($white, $white);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size .3s;
-
-        &:hover,&:focus {
-            background-size: 100% 2px;
-            color: $white;
-        }
-    }
-
-    .dropdown-menu {
-        background-color: $mainColor;
-    }
-
-    .dropdown-item:hover,
-    &:focus {
-        background-color: $mainColor;
-        color: $white;
-    }
-
-    .navbar-toggler {
-        background-color: transparent;
-        border: 2px solid $white;
-        border-radius: 4px;
-
-        &-icon {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-        }
-    }
-
-
 }

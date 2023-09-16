@@ -1,0 +1,54 @@
+/* Cards index */
+
+.accesoDirectoCuadros {
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    figure {
+        width: 30%;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        border: $mainColor solid 2px;
+    }
+
+}
+
+/* Cards products */
+
+.card {
+    @include Cards(1rem, center, border, 5px)
+}
+
+figcaption {
+    @include Textos(font-weight, center, font-size, 10px 10px);
+    font-family: $secondaryFont;
+    color: $keyColor;
+}
+
+.promo {
+    text-decoration: line-through;
+    color: $mainColor;
+}
+
+.img-fluid{
+    padding-top: 20px
+} 
+/* Modal */
+
+.modal-dialog {
+    .btn {
+        @extend .btn-gral;
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            background-color: $btnHover;
+        }
+    }
+}
+
+.modal-footer{
+    justify-content: space-around;
+}

@@ -1,0 +1,15 @@
+@keyframes transition {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cardAnimada {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: transition 5s linear;
+}

@@ -1,49 +1,48 @@
-@mixin Titulos($size,$align,$color,$paddding,$margin){    
-    font-size:$fontMd;
+@mixin Titulos($size, $align, $color, $paddding, $margin) {
+    font-size: $fontMd;
     text-align: center;
     color: $secondaryColor;
     padding: 20px 50px;
     margin-top: 40px;
 }
 
-@mixin Cards($margin,$align,$border,$radius){
-margin:$margin;
-text-align: $align;
-border: $secondaryColor solid 2px ;
-border-radius: $radius;
+@mixin Cards($margin, $align, $border, $radius) {
+    margin: $margin;
+    text-align: $align;
+    border: $secondaryColor solid 2px;
+    border-radius: $radius;
 }
 
-@mixin Textos($weight,$align,$Size,$margin,){
-font-weight: $fontBold;
-text-align: $align;
-font-size: $fontSm;
-margin: $margin;
+@mixin Textos($weight, $align, $Size, $margin, ) {
+    font-weight: $fontBold;
+    text-align: $align;
+    font-size: $fontSm;
+    margin: $margin;
 }
 
-@mixin TextosPrecio($align,$Size,$margin,){
+@mixin TextosPrecio($align, $Size, $margin, ) {
     // font-weight: $fontBold;
     text-align: $align;
     font-size: $fontXs;
     margin: $margin;
-    }
+}
 
-// .header-gral{
-//     height: 40vh;
-//     width: 100vw;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background-image: url(../img/cuadrosanimalescarousel.png);
-// }
-// .header-admin{
-//     @extend .header-gral;
-//     background-image: url(../img/cuadrosfloralcarousel.png);
-// }
-// .header-contact{
-//     @extend .header-gral;
-//     background-image: url(../img/arcoiriscarousel.png);
-// }
-// .header-product{
-//     @extend .header-gral;
-//     background-image: url(../img/headercuadros.png);
-// }
+/* Extend */
+
+.btn-gral {
+    border: none;
+    background-color: $mainColor;
+    color: $white;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+.btn {
+    @extend .btn-gral;
+
+    &:hover {
+        cursor: pointer;
+        color: $white;
+        background-color: $btnHover;
+    }
+}
