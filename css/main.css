@@ -364,7 +364,7 @@ nav .navbar-toggler-icon {
 }
 
 /* Media query */
-@media (min-width: 400px) and (max-width: 960px) {
+@media (min-width: 320px) and (max-width: 960px) {
   .accesoDirectoCuadros figure {
     width: 100%;
   }
@@ -372,7 +372,7 @@ nav .navbar-toggler-icon {
     width: 100%;
   }
 }
-@media (min-width: 400px) and (max-width: 960px) {
+@media (min-width: 320px) and (max-width: 960px) {
   .footerItems {
     flex-direction: column;
   }
@@ -383,7 +383,7 @@ nav .navbar-toggler-icon {
     width: auto;
   }
 }
-@media (min-width: 400px) and (max-width: 960px) {
+@media (min-width: 320px) and (max-width: 960px) {
   .banner .container {
     flex-direction: column;
   }
