@@ -1,4 +1,3 @@
-
 /* Video index */
 
 .contenedorVideo {
@@ -6,13 +5,17 @@
     width: 100%;
     padding-bottom: 56.25%;
     overflow: hidden;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
     flex: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
     .youtube-video {
         position: absolute;
         top: 0;
-        left: 0; 
+        left: 0;
         width: 90%;
         height: 90%;
         border: none;
@@ -20,10 +23,13 @@
         align-items: center;
         flex-wrap: wrap;
     }
+
+    iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 }
-
-
-
- 
-
-

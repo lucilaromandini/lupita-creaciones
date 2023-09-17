@@ -350,6 +350,9 @@ nav .navbar-toggler-icon {
   align-items: center;
   flex-wrap: wrap;
   flex: auto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 .contenedorVideo .youtube-video {
   position: absolute;
@@ -361,6 +364,14 @@ nav .navbar-toggler-icon {
   padding: 40px 20px;
   align-items: center;
   flex-wrap: wrap;
+}
+.contenedorVideo iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 /* Media query */
