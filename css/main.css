@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 /* Extend */
 .btn-gral, .modal-dialog .btn, .btn {
@@ -264,7 +265,6 @@ nav .navbar-toggler-icon {
 .modal-dialog .modal-body {
   font-size: 1.2em;
   text-align: center;
-  color: red;
 }
 
 .modal-footer {
