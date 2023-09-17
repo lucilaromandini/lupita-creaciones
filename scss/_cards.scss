@@ -19,13 +19,8 @@
 /* Cards products */
 
 .card {
-    @include Cards(1rem, center, border, 5px)
-}
-
-figcaption {
-    @include Textos(font-weight, center, font-size, 10px 10px);
-    font-family: $secondaryFont;
-    color: $keyColor;
+    @include Cards(1rem, center, border, 5px);
+    margin-bottom: 90px;
 }
 
 .promo {
@@ -33,14 +28,24 @@ figcaption {
     color: $mainColor;
 }
 
-.img-fluid{
+.img-fluid {
     padding-top: 20px
-} 
+}
+
+
+.card-text {
+    p {
+        text-align: left;
+        text-justify: auto;
+    }
+}
+
 /* Modal */
 
 .modal-dialog {
     .btn {
         @extend .btn-gral;
+
         &:hover {
             cursor: pointer;
             color: $white;
@@ -49,6 +54,7 @@ figcaption {
     }
 }
 
-.modal-footer{
+.modal-footer {
     justify-content: space-around;
 }
+

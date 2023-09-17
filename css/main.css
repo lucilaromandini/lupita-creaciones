@@ -15,7 +15,6 @@
 }
 
 * {
-  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -49,9 +48,13 @@ h6 {
   font-weight: 600;
 }
 
-.card-text p {
-  text-align: left;
-  text-justify: auto;
+figcaption {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 10px;
+  font-family: "Bad Scrip";
+  color: rgb(11, 11, 11);
 }
 
 /* Header */
@@ -112,6 +115,37 @@ nav .navbar-toggler {
 }
 nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 40px 0;
+}
+.banner .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.banner img {
+  max-width: 50px;
+  height: auto;
+  padding-bottom: 10px;
+}
+.banner .servicio {
+  flex: 1;
+  max-height: 200px;
+  padding: 20px;
+  overflow: auto;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.banner .tituloBanner {
+  font-size: 1.2em;
+}
+.banner .parrafoBanner {
+  font-size: 1em;
 }
 
 /* footer */
@@ -204,15 +238,7 @@ nav .navbar-toggler-icon {
   text-align: center;
   border: rgb(212, 125, 190) solid 2px;
   border-radius: 5px;
-}
-
-figcaption {
-  font-weight: 600;
-  text-align: center;
-  font-size: 1.2em;
-  margin: 10px 10px;
-  font-family: "Bad Scrip";
-  color: rgb(11, 11, 11);
+  margin-bottom: 90px;
 }
 
 .promo {
@@ -222,6 +248,11 @@ figcaption {
 
 .img-fluid {
   padding-top: 20px;
+}
+
+.card-text p {
+  text-align: left;
+  text-justify: auto;
 }
 
 /* Modal */
@@ -345,6 +376,15 @@ figcaption {
   }
   .footerSocialMedia {
     width: auto;
+  }
+}
+@media (min-width: 400px) and (max-width: 960px) {
+  .banner .container {
+    flex-direction: column;
+  }
+  .banner .container .servicio {
+    flex: 1;
+    max-width: 100%;
   }
 }
 @keyframes transition {

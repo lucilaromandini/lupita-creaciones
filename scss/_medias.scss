@@ -1,7 +1,6 @@
-
 /* Media query */
 
-@media (min-width:400px) and (max-width: 960px){
+@media (min-width:400px) and (max-width: 960px) {
     .accesoDirectoCuadros figure {
         width: 100%;
     }
@@ -23,5 +22,19 @@
 
     .footerSocialMedia {
         width: auto;
+    }
+}
+
+@media (min-width:400px) and (max-width: 960px) {
+
+    .banner {
+        .container {
+            flex-direction: column;
+
+            .servicio {
+                flex: 1;
+                max-width: 100%;
+            }
+        }
     }
 }
