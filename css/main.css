@@ -134,7 +134,7 @@ nav .navbar-toggler-icon {
 }
 .banner .servicio {
   flex: 1;
-  max-height: 200px;
+  max-height: 250px;
   padding: 20px;
   overflow: auto;
   border-radius: 5px;
@@ -260,6 +260,11 @@ nav .navbar-toggler-icon {
   cursor: pointer;
   color: rgb(254, 254, 254);
   background-color: rgb(144, 60, 123);
+}
+.modal-dialog .modal-body {
+  font-size: 1.2em;
+  text-align: center;
+  color: red;
 }
 
 .modal-footer {

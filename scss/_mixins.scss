@@ -13,7 +13,7 @@
     border-radius: $radius;
 }
 
-@mixin Textos($weight, $align, $Size, $margin, ) {
+@mixin Textos($weight, $align, $Size, $margin) {
     font-weight: $fontBold;
     text-align: $align;
     font-size: $fontSm;
@@ -21,7 +21,6 @@
 }
 
 @mixin TextosPrecio($align, $Size, $margin, ) {
-    // font-weight: $fontBold;
     text-align: $align;
     font-size: $fontXs;
     margin: $margin;

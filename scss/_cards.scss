@@ -52,9 +52,13 @@
             background-color: $btnHover;
         }
     }
+    .modal-body {
+        font-size: $fontSm;
+        text-align: center;
+        color: red;
+    }
 }
 
 .modal-footer {
     justify-content: space-around;
 }
-
