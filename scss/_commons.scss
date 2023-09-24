@@ -1,5 +1,5 @@
 * {
-     box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -110,22 +110,54 @@ nav {
     }
 }
 
+/* Botón desplegable de medidas */
+
+.dropdown {
+    .btn-secondary {
+        @extend .btn-gral;
+       margin-right: 600px;
+       margin-bottom: 20px;
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            background-color: $btnHover;
+        }
+    }
+}
+
+.dropdown-menu {
+    background-color: $mainColor;
+
+    .dropdown-item {
+        color: $white;
+
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            background-color: $btnHover;
+        }
+    }
+}
+
 /* Banner */
 
 .banner {
     text-align: center;
     padding: 40px 0;
+
     .container {
         display: flex;
         justify-content: space-between;
-        gap: 20px;       
+        gap: 20px;
     }
+
     img {
         max-width: 50px;
         height: auto;
         padding-bottom: 10px;
     }
-   .servicio {
+
+    .servicio {
         flex: 1;
         max-height: 250px;
         padding: 20px;
@@ -134,9 +166,11 @@ nav {
         text-align: center;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     }
-    .tituloBanner{
+
+    .tituloBanner {
         font-size: $fontSm;
     }
+
     .parrafoBanner {
         font-size: $fontXs;
     }
@@ -211,6 +245,10 @@ nav {
         }
     }
 }
+
+
+
+
 
 /* Error 404 */
 
