@@ -1,94 +1,49 @@
-
 /* Contact*/
 
 .contenedorContactoPage {
-    display: grid;
-    grid-template-columns: repeat(1, auto); 
-    gap: 30px; 
-    justify-content: center; 
-    margin-top: 20px; 
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-    .componenteContactoPage {
-        display: inline-block;
-        margin-bottom: 1rem;
-        h4 {
-            font-size: $fontMd;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            color:$secondaryColor;
-            text-align: center;
-        }
-        form label {
-            display: block;
-            margin-bottom: 10px;
-            margin-top: 10px;
-            margin-right: 20px;
-            color: $keyColor;
-            font-weight: bold;
-            font-size: $fontSm;
-        }
-        form textarea {
-            display: block;
-            width: 100%;
-            padding: 0px 0px;
-            margin-bottom: 10px;
-            border: 2px solid #b2afaf;
-            border-radius: 5px;
-            font-size: $fontSm;
-            margin-bottom: 10px;
-        }
-        .btn {
-            border: none;
-            background-color: $mainColor;
-            color: $white;
-            border-radius: 5px;
-            margin: 3px 0;
-    
-            &:hover {
-                cursor: pointer;
-                color: $white;
-                background-color: $btnHover;
-            }
-        } 
-    }
+.contactoContenedor {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
 
-    
-    .mapContactoPage {
-        width: 500px;
-        height: 500px;
-        border: 1px solid #908f8f;
+    .form-label {
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 20px;
+        color: $keyColor;
+        font-weight: bold;
+        font-size: $fontXs;
+    }
+    .textArea {
+        display: block;
+        width: 100%;
+        padding: 0px 0px;
+        margin-bottom: 10px;
+        border: 2px solid $mainColor;
         border-radius: 5px;
-        margin-top: 1rem;
+        font-size: $fontXs;
+        margin-bottom: 10px;
+        max-height: 150px;
+       
     }
+}
 
-    .formulario {
-        margin-right: 80px;
-    }
-
-    .ubicacion{
-        margin-left: 80px;
-    }
-    
-   
+.form-control.textArea:focus,
+.form-control.textArea:active {
+    background-color: $secondaryColor; 
+}
 
 
-
-
-
-    /* Estilos adicionales para los elementos del formulario */
-    // label {
-    //   margin-top: 10px;
-    // }
-  
-    // input[type="text"],
-    // textarea {
-    //   width: 100%;
-    // }
-  
-    // .btn {
-    //   width: 45%; 
-    // }
-  
-  
+.mapContactoPage {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+}

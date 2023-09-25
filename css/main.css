@@ -16,6 +16,17 @@
   background-color: rgb(144, 60, 123);
 }
 
+/* Botón desplegable de medidas */
+.dropdown .btn-secondary {
+  margin-right: 600px;
+  margin-bottom: 20px;
+}
+.dropdown .btn-secondary:hover {
+  cursor: pointer;
+  color: rgb(254, 254, 254);
+  background-color: rgb(144, 60, 123);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -117,17 +128,6 @@ nav .navbar-toggler {
 }
 nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-/* Botón desplegable de medidas */
-.dropdown .btn-secondary {
-  margin-right: 600px;
-  margin-bottom: 20px;
-}
-.dropdown .btn-secondary:hover {
-  cursor: pointer;
-  color: rgb(254, 254, 254);
-  background-color: rgb(144, 60, 123);
 }
 
 .dropdown-menu {
@@ -297,74 +297,50 @@ nav .navbar-toggler-icon {
 
 /* Contact*/
 .contenedorContactoPage {
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  gap: 30px;
-  justify-content: center;
-  margin-top: 20px;
-  margin: 50px;
-}
-
-.componenteContactoPage {
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-.componenteContactoPage h4 {
-  font-size: 1.8em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: rgb(212, 125, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-.componenteContactoPage form label {
+
+.contactoContenedor {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+.contactoContenedor .form-label {
   display: block;
   margin-bottom: 10px;
   margin-top: 10px;
   margin-right: 20px;
   color: rgb(11, 11, 11);
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
 }
-.componenteContactoPage form textarea {
+.contactoContenedor .textArea {
   display: block;
   width: 100%;
   padding: 0px 0px;
   margin-bottom: 10px;
-  border: 2px solid #b2afaf;
+  border: 2px solid #944f83;
   border-radius: 5px;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 10px;
+  max-height: 150px;
 }
-.componenteContactoPage .btn {
-  border: none;
-  background-color: #944f83;
-  color: rgb(254, 254, 254);
-  border-radius: 5px;
-  margin: 3px 0;
-}
-.componenteContactoPage .btn:hover {
-  cursor: pointer;
-  color: rgb(254, 254, 254);
-  background-color: rgb(144, 60, 123);
+
+.form-control.textArea:focus,
+.form-control.textArea:active {
+  background-color: rgb(212, 125, 190);
 }
 
 .mapContactoPage {
-  width: 500px;
-  height: 500px;
-  border: 1px solid #908f8f;
-  border-radius: 5px;
-  margin-top: 1rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: block;
 }
 
-.formulario {
-  margin-right: 80px;
-}
-
-.ubicacion {
-  margin-left: 80px;
-}
-
-/* Estilos adicionales para los elementos del formulario */
 /* Video index */
 .contenedorVideo {
   position: relative;
@@ -424,6 +400,14 @@ nav .navbar-toggler-icon {
   }
   .banner .container .servicio {
     flex: 1;
+    max-width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 960px) {
+  .contactoContenedor {
+    max-width: 100%;
+  }
+  .contactoContenedor .mapContactoPage {
     max-width: 100%;
   }
 }

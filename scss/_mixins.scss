@@ -45,3 +45,19 @@
         background-color: $btnHover;
     }
 }
+
+
+/* Botón desplegable de medidas */
+
+.dropdown {
+    .btn-secondary {
+        @extend .btn-gral;
+       margin-right: 600px;
+       margin-bottom: 20px;
+        &:hover {
+            cursor: pointer;
+            color: $white;
+            background-color: $btnHover;
+        }
+    }
+}
