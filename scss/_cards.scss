@@ -17,10 +17,13 @@
 }
 
 /* Cards products */
-
+.container-fluid{
+  padding-left: 30px;
+  
+}
 .card {
     @include Cards(1rem, center, border, 5px);
-    margin-bottom: 90px;
+    margin: 30px 5px;
 }
 
 .promo {
@@ -28,15 +31,22 @@
     color: $mainColor;
 }
 
+.oferta {
+    background-color: $secondaryColor;
+    height: 25px;
+    color: $white;
+}
+
 .img-fluid {
     padding-top: 20px
 }
 
 
-.card-text {
+.card-body {
     p {
         text-align: left;
         text-justify: auto;
+
     }
 }
 

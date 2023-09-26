@@ -4,7 +4,7 @@
 /* Extend */
 .btn-gral, .modal-dialog .btn, .dropdown .btn-secondary, .btn {
   border: none;
-  background-color: #944f83;
+  background-color: rgb(148, 79, 131);
   color: rgb(254, 254, 254);
   border-radius: 5px;
   margin: 3px 0;
@@ -18,8 +18,9 @@
 
 /* Botón desplegable de medidas */
 .dropdown .btn-secondary {
-  margin-right: 600px;
+  display: flex;
   margin-bottom: 20px;
+  position: relative;
 }
 .dropdown .btn-secondary:hover {
   cursor: pointer;
@@ -82,7 +83,7 @@ header img {
 /* Navbar */
 nav {
   border-bottom: solid 5px rgb(254, 254, 254);
-  background-color: #944f83;
+  background-color: rgb(148, 79, 131);
 }
 nav img {
   width: 100%;
@@ -115,10 +116,10 @@ nav .menu:hover, nav .menu:focus {
   color: rgb(254, 254, 254);
 }
 nav .dropdown-menu {
-  background-color: #944f83;
+  background-color: rgb(148, 79, 131);
 }
 nav .dropdown-item:hover, nav:focus {
-  background-color: #944f83;
+  background-color: rgb(148, 79, 131);
   color: rgb(254, 254, 254);
 }
 nav .navbar-toggler {
@@ -131,7 +132,7 @@ nav .navbar-toggler-icon {
 }
 
 .dropdown-menu {
-  background-color: #944f83;
+  background-color: rgb(148, 79, 131);
 }
 .dropdown-menu .dropdown-item {
   color: rgb(254, 254, 254);
@@ -177,8 +178,8 @@ nav .navbar-toggler-icon {
 .footer {
   padding: 20px 0;
   text-align: center;
-  border-top: 3px solid #944f83;
-  background-color: #944f83;
+  border-top: 3px solid rgb(148, 79, 131);
+  background-color: rgb(148, 79, 131);
 }
 .footer .footerContainer {
   max-width: 1200px;
@@ -254,28 +255,38 @@ nav .navbar-toggler-icon {
   padding: 10px 10px;
   display: flex;
   flex-direction: column;
-  border: #944f83 solid 2px;
+  border: rgb(148, 79, 131) solid 2px;
 }
 
 /* Cards products */
+.container-fluid {
+  padding-left: 30px;
+}
+
 .card {
   margin: 1rem;
   text-align: center;
   border: rgb(212, 125, 190) solid 2px;
   border-radius: 5px;
-  margin-bottom: 90px;
+  margin: 30px 5px;
 }
 
 .promo {
   text-decoration: line-through;
-  color: #944f83;
+  color: rgb(148, 79, 131);
+}
+
+.oferta {
+  background-color: rgb(212, 125, 190);
+  height: 25px;
+  color: rgb(254, 254, 254);
 }
 
 .img-fluid {
   padding-top: 20px;
 }
 
-.card-text p {
+.card-body p {
   text-align: left;
   text-justify: auto;
 }
@@ -322,7 +333,7 @@ nav .navbar-toggler-icon {
   width: 100%;
   padding: 0px 0px;
   margin-bottom: 10px;
-  border: 2px solid #944f83;
+  border: 2px solid rgb(148, 79, 131);
   border-radius: 5px;
   font-size: 1em;
   margin-bottom: 10px;
@@ -411,10 +422,33 @@ nav .navbar-toggler-icon {
     max-width: 100%;
   }
 }
-.cardAnimada {
+@keyframes transition {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.cardTransition {
+  animation-name: transition;
+  animation-duration: 4s;
+}
+
+@keyframes text-animado {
+  from {
+    transform: translateX(-70%);
+  }
+  to {
+    transform: translateX(70%);
+  }
+}
+.textAnimado {
   white-space: nowrap;
   overflow: hidden;
+  animation: text-animado infinite 20s;
 }
+
 .cardAnimada:hover {
   transform: scale(1.1);
   transition: transform 2s;

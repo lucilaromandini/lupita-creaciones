@@ -52,8 +52,9 @@
 .dropdown {
     .btn-secondary {
         @extend .btn-gral;
-       margin-right: 600px;
+       display:flex;
        margin-bottom: 20px;
+       position: relative;
         &:hover {
             cursor: pointer;
             color: $white;
@@ -61,3 +62,12 @@
         }
     }
 }
+
+
+  
+  
+  
+  
+  
+  
+  

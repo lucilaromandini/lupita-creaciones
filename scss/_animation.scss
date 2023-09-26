@@ -1,17 +1,36 @@
-// @keyframes transition {
-//     from {
-//         opacity: 0;
-//     }
+@keyframes transition {
+    from {
+        opacity: 0;
+    }
 
-//     to {
-//         opacity: 1;
-//     }
-// }
+    to {
+        opacity: 1;
+    }
+}
 
-.cardAnimada {
+.cardTransition {
+    animation-name: transition;
+    animation-duration: 4s;
+}
+
+@keyframes text-animado{
+    from{
+        transform: translateX(-70%);
+   
+    }
+    to{
+        transform: translateX(70%);
+       
+    }
+}
+
+.textAnimado{
     white-space: nowrap;
     overflow: hidden;
+    animation: text-animado infinite 20s ;
+}
 
+.cardAnimada {
     &:hover {
         transform: scale(1.1);
         transition: transform 2s;
