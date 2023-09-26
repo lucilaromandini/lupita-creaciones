@@ -411,6 +411,10 @@ nav .navbar-toggler-icon {
     max-width: 100%;
   }
 }
+.cardAnimada {
+  white-space: nowrap;
+  overflow: hidden;
+}
 .cardAnimada:hover {
   transform: scale(1.1);
   transition: transform 2s;
