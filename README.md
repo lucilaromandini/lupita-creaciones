@@ -1,18 +1,17 @@
 # Lupita creaciones ✨ 💫
 ## Lupita creaciones: El sitio donde encontrarás los mejores cuadros 
-Lupita creaciones se trata de un sitio donde podrás encontrar los mejores cuadros infantiles para decorar los espacios de los mas pequeños, así como también encontrarán cuadros con cuadros de nacimiento, estas se tratan de láminas donde podrás plasmar toda la informació del bebe y así plasmar los mejores recuerdos en un hermoso cuadro.❣️
-
+Lupita Creaciones es un sitio dedicado a la decoración de espacios infantiles con los mejores cuadros. Además, ofrecemos cuadros de nacimiento, que son láminas donde puedes plasmar toda la información del bebé y así guardar los mejores recuerdos en un hermoso cuadro. ❤️
 
 ## Inicio de mi Sitio web 💻
-Al realizar los  wireframes creí que eran los optimos y que los iba a seguir tal cual están, pero al comenzar a maquetar me di cuenta que se podía mejorar. 
+Cuando diseñé los wireframes, inicialmente creí que eran óptimos y que seguiría ese diseño tal como estaba. Sin embargo, al comenzar con la maquetación, me di cuenta de que había margen para mejoras.
 
 ### Index
-Como primer wireframe del index,lo boceté muy sencillo, sin mucho estilo o diseño específico.
-A medida que avanzaba en el curso pude notarlo y pensar mejoras para que tenga mas estilo, es por esto que a medida que fuí maquetaba lo fui modificando para darle más personalidad a la página.    
-* Agregué accesos diectos a los distintos productos,                                                              
-* Agregué a la navbar un menú desplegable, donde pueden encontrar los productos,  
-* Coloqué el logo en la navbar,  
-* Agregué un header con un carrousel de fotos.
+Como primer wireframe del index, diseñé una versión inicial bastante sencilla, sin mucho estilo o diseño específico. A medida que avanzaba en el curso, comencé a notar áreas de mejora para darle más personalidad a la página. Durante el proceso de maquetación, realicé las siguientes modificaciones:
+
+* Agregué accesos directos a los distintos productos.
+* Implementé un menú desplegable en la barra de navegación para que los usuarios puedan encontrar fácilmente los productos.
+* Incorporé el logo en la barra de navegación.
+* Introduje un encabezado con un carrusel de fotos.
 
 ![Alt Image Text](./readme_resources/wireframe_index.webp)
 
@@ -22,8 +21,7 @@ Quedando de esta forma
 ![Alt Image Text](./readme_resources/index_accesos_directos.webp)
 
 ### Productos; Promos y Contacto
-Con lo que respecta de productos y promos no fue maquetado muy lejos de los bocetos, se siguio bastante el estilo pensado desde el principio.
-Mientras que en contacto me base en lo bocetado, dàndole una pequeña modificación, coloqué el contenido en una sola columa, quedando el mapa por debajo del formulario, y con información sobre ubicación por escrito.
+En cuanto a la maquetación de productos y promociones, no me alejé mucho de los bocetos originales. En la sección de contacto, me basé en los bocetos originales y realicé una pequeña modificación. Coloqué el contenido en una sola columna, con el mapa ubicado debajo del formulario y proporcioné información de ubicación por escrito
 
 ![Alt Image Text](./readme_resources/wireframe_pictures.webp)
 
@@ -32,9 +30,7 @@ Mientras que en contacto me base en lo bocetado, dàndole una pequeña modificac
 ![Alt Image Text](./readme_resources/wireframe_contact.webp)
 
 ### Footer
-En cuanto al footer se modificó bastanta, ya que en los bocetos originales el footer contenía contacto, mapa de ubicación y las redes.
-Se tomó la decición de modificarlo, colocando los medios de pago; envío; contacto y redes ya que esa información no se encontraba en la página y eliminando el mapa de ubicación, ya que esto se puede encontrar en contactos.
-Considero que de esta manera quedó con mas armonía y completa.
+En cuanto al footer, se modificó bastante, ya que en los bocetos originales el footer contenía información de contacto, un mapa de ubicación y enlaces a las redes sociales. Tomé la decisión de modificarlo, colocando información sobre medios de pago, opciones de envío, detalles de contacto y enlaces a las redes sociales, ya que esta información no estaba presente en la página. Considero que de esta manera, el footer quedó más armonioso y completo
 
 ![Alt Image Text](./readme_resources/wireframe_footer.webp)
 
@@ -65,23 +61,29 @@ El proyecto Lupita creaciones es un sitio web donde podés encontrar los mejores
 Asegurate de tener instalado lo siguiente en tu pc:
 
 Node.js
-npm ( generalmente se instala con Node.js )
+npm (generalmente se instala con Node.js).
 ##Pasos a seguir ✅
 ### 1: Clonar el repositorio 📂 
-Puedes utilizar el siguiente comando "git clone git@github.com:lucilaromandini/lupita-creaciones.git".
+Podés utilizar el siguiente comando "git clone git@github.com:lucilaromandini/lupita-creaciones.git".
 ### 2: Reinstalar dependencias 🔧
 Las dependencias ya se encuentran en el package.json, pero es necesario instalarlas nuevamente con el comando "npm install".
 
 ### 3: Iniciar SASS ✨
-Ten en cuenta que para trabajar el estilo del proyecto, es necesario que trabajes sobre los partials de SASS.                   
+Tené en cuenta que para trabajar el estilo del proyecto, es necesario que trabajes sobre los partials de SASS.                   
 Para iniciar SASS, deberás utilizar el siguiente comando: "npm run sass:watch".
 
 ### 4: Codear 🧠
-Siéntete libre de aplicar modificaciones y llevar el proyecto a distintos horizontes.
+Sentite libre de aplicar modificaciones y llevar el proyecto a distintos horizontes.
 
 ### Vínculos a Lupita Creaciones 🖼
+https://lupitacreaciones.netlify.app/  
+https://lucilaromandini.github.io/lupita-creaciones/  
+https://github.com/lucilaromandini/lupita-creaciones
 
+Sitio web en Netlify
 
+Sitio web en GitHub Pages
 
+Repositorio en GitHub
                  
 
