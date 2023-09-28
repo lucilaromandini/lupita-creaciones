@@ -44,6 +44,12 @@
         color: $white;
         background-color: $btnHover;
     }
+
+    .card.btn:focus,
+    .card.btn:active {
+        background-color: $btnHover;
+        color: $white;
+    }
 }
 
 
@@ -52,9 +58,10 @@
 .dropdown {
     .btn-secondary {
         @extend .btn-gral;
-       display:flex;
-       margin-bottom: 20px;
-       position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        position: relative;
+
         &:hover {
             cursor: pointer;
             color: $white;
@@ -62,12 +69,3 @@
         }
     }
 }
-
-
-  
-  
-  
-  
-  
-  
-  

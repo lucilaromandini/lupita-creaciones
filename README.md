@@ -6,14 +6,16 @@ Lupita Creaciones es un sitio dedicado a la decoración de espacios infantiles c
 Cuando diseñé los wireframes, inicialmente creí que eran óptimos y que seguiría ese diseño tal como estaba. Sin embargo, al comenzar con la maquetación, me di cuenta de que había margen para mejoras.
 
 ### Index
-Como primer wireframe del index, diseñé una versión inicial bastante sencilla, sin mucho estilo o diseño específico. A medida que avanzaba en el curso, comencé a notar áreas de mejora para darle más personalidad a la página. Durante el proceso de maquetación, realicé las siguientes modificaciones:
+Como primer wireframe del index, diseñé una versión inicial bastante sencilla, sin mucho estilo o diseño específico. A medida que avanzaba en el curso, comencé a notar áreas de mejora para darle más personalidad a la página. 
+
+![Alt Image Text](./readme_resources/wireframe_index.webp)
+
+Durante el proceso de maquetación, realicé las siguientes modificaciones:
 
 * Agregué accesos directos a los distintos productos.
 * Implementé un menú desplegable en la barra de navegación para que los usuarios puedan encontrar fácilmente los productos.
 * Incorporé el logo en la barra de navegación.
 * Introduje un encabezado con un carrusel de fotos.
-
-![Alt Image Text](./readme_resources/wireframe_index.webp)
 
 Quedando de esta forma
 
@@ -52,6 +54,7 @@ En cuanto al footer, se modificó bastante, ya que en los bocetos originales el 
 * Visual    
 
 ## Herramienta de desarrollo 
+
 * Netifly
 
 ##Instalación ⚙️
@@ -80,10 +83,5 @@ https://lupitacreaciones.netlify.app/
 https://lucilaromandini.github.io/lupita-creaciones/  
 https://github.com/lucilaromandini/lupita-creaciones
 
-Sitio web en Netlify
-
-Sitio web en GitHub Pages
-
-Repositorio en GitHub
                  
 

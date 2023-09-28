@@ -15,6 +15,11 @@
   color: rgb(254, 254, 254);
   background-color: rgb(144, 60, 123);
 }
+.btn .card.btn:focus,
+.btn .card.btn:active {
+  background-color: rgb(144, 60, 123);
+  color: rgb(254, 254, 254);
+}
 
 /* Botón desplegable de medidas */
 .dropdown .btn-secondary {
@@ -238,7 +243,7 @@ nav .navbar-toggler-icon {
   margin-top: 100px;
 }
 .error404 img {
-  max-width: 40%;
+  max-width: 70%;
   display: block;
   margin: 0 auto;
 }
@@ -291,6 +296,7 @@ nav .navbar-toggler-icon {
   text-justify: auto;
 }
 
+/* Botón tarjeta de detalle */
 /* Modal */
 .modal-dialog .btn:hover {
   cursor: pointer;
@@ -306,7 +312,7 @@ nav .navbar-toggler-icon {
   justify-content: space-around;
 }
 
-/* Contact*/
+/* Contacto*/
 .contenedorContactoPage {
   display: flex;
   flex-direction: column;
@@ -343,6 +349,8 @@ nav .navbar-toggler-icon {
 .form-control.textArea:focus,
 .form-control.textArea:active {
   background-color: rgb(212, 125, 190);
+  color: rgb(254, 254, 254);
+  font-weight: 300;
 }
 
 .mapContactoPage {
@@ -358,23 +366,15 @@ nav .navbar-toggler-icon {
   width: 100%;
   padding-bottom: 56.25%;
   overflow: hidden;
-  align-items: center;
-  flex-wrap: wrap;
-  flex: auto;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+  height: 0;
 }
 .contenedorVideo .youtube-video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   border: none;
-  padding: 40px 20px;
-  align-items: center;
-  flex-wrap: wrap;
 }
 .contenedorVideo iframe {
   position: absolute;

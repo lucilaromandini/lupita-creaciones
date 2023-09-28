@@ -13,21 +13,22 @@
     animation-duration: 4s;
 }
 
-@keyframes text-animado{
-    from{
+@keyframes text-animado {
+    from {
         transform: translateX(-70%);
-   
+
     }
-    to{
+
+    to {
         transform: translateX(70%);
-       
+
     }
 }
 
-.textAnimado{
+.textAnimado {
     white-space: nowrap;
     overflow: hidden;
-    animation: text-animado infinite 20s ;
+    animation: text-animado infinite 20s;
 }
 
 .cardAnimada {

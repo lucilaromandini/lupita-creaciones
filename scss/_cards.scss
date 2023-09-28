@@ -17,10 +17,11 @@
 }
 
 /* Cards products */
-.container-fluid{
-  padding-left: 30px;
-  
+.container-fluid {
+    padding-left: 30px;
+
 }
+
 .card {
     @include Cards(1rem, center, border, 5px);
     margin: 30px 5px;
@@ -49,6 +50,10 @@
 
     }
 }
+
+/* Botón tarjeta de detalle */
+
+
 
 /* Modal */
 

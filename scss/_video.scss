@@ -5,23 +5,15 @@
     width: 100%;
     padding-bottom: 56.25%;
     overflow: hidden;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: auto;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    height: 0;
 
     .youtube-video {
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         border: none;
-        padding: 40px 20px;
-        align-items: center;
-        flex-wrap: wrap;
     }
 
     iframe {

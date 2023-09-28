@@ -1,4 +1,4 @@
-/* Contact*/
+/* Contacto*/
 
 .contenedorContactoPage {
     display: flex;
@@ -21,6 +21,7 @@
         font-weight: bold;
         font-size: $fontXs;
     }
+
     .textArea {
         display: block;
         width: 100%;
@@ -31,13 +32,15 @@
         font-size: $fontXs;
         margin-bottom: 10px;
         max-height: 150px;
-       
+
     }
 }
 
 .form-control.textArea:focus,
 .form-control.textArea:active {
-    background-color: $secondaryColor; 
+    background-color: $secondaryColor;
+    color: $white;
+    font-weight:300;
 }
 
 
