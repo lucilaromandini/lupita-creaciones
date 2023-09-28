@@ -40,16 +40,16 @@ Considero que de esta manera quedó con mas armonía y completa.
 
 ## Tecnología utilizada 💻 
 
-![Alt Image Text](./readme_resources/html-5.webp) 
-![Alt Image Text](./readme_resources/css1.webp) 
-![Alt Image Text](./readme_resources/Node_js.webp)
-![Alt Image Text](./readme_resources/sass.webp)
-![Alt Image Text](./readme_resources/bootstrap.webp)
+* HTML5
+* CSS3
+* Node.js
+* SASS
+* Bootstrap
 
 ## Controlador de versiones 💻
 
-![Alt Image Text](./readme_resources/git.jpg)
-![Alt Image Text](./readme_resources/github.jpg)
+* Git
+* Github
 
 ## Herramienta de desarrollo 🔧
 
