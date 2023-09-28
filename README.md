@@ -53,10 +53,10 @@ Considero que de esta manera quedó con mas armonía y completa.
 
 ## Herramienta de desarrollo 🔧
 
-![Alt Image Text](./readme_resources/visual.webp)    
+* Visual    
 
 ## Herramienta de desarrollo 
-Netifly
+* Netifly
 
 ##Instalación ⚙️
 El proyecto Lupita creaciones es un sitio web donde podés encontrar los mejores cuadros decorativos infantiles y láminas de nacimiento. Sigue los siguientes pasos para instalar y ejecutar el sitio en tu entorno local:
