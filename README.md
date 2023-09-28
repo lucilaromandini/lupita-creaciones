@@ -48,8 +48,8 @@ Considero que de esta manera quedó con mas armonía y completa.
 
 ## Controlador de versiones 💻
 
-![Alt Image Text](./readme_resources/git.webp)
-![Alt Image Text](./readme_resources/github.webp)
+![Alt Image Text](./readme_resources/git.jpg)
+![Alt Image Text](./readme_resources/github.jpg)
 
 ## Herramienta de desarrollo 🔧
 
@@ -68,7 +68,7 @@ Node.js
 npm ( generalmente se instala con Node.js )
 ##Pasos a seguir ✅
 ### 1: Clonar el repositorio 📂 
-Puedes utilizar el siguiente comando "git clone 
+Puedes utilizar el siguiente comando "git clone git@github.com:lucilaromandini/lupita-creaciones.git".
 ### 2: Reinstalar dependencias 🔧
 Las dependencias ya se encuentran en el package.json, pero es necesario instalarlas nuevamente con el comando "npm install".
 
