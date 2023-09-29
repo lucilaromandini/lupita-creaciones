@@ -85,7 +85,7 @@ nav {
         &:hover,
         &:focus {
             background-size: 100% 2px;
-            color: $white;
+            color: $white !important;
         }
     }
 

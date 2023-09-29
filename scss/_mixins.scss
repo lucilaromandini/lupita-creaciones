@@ -41,15 +41,9 @@
 
     &:hover {
         cursor: pointer;
-        color: $white;
-        background-color: $btnHover;
-    }
-
-    .card.btn:focus,
-    .card.btn:active {
-        background-color: $btnHover;
-        color: $white;
-    }
+        color: $white !important;
+        background-color: $btnHover !important;
+    }    
 }
 
 

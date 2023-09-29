@@ -12,13 +12,8 @@
 
 .btn:hover {
   cursor: pointer;
-  color: rgb(254, 254, 254);
-  background-color: rgb(144, 60, 123);
-}
-.btn .card.btn:focus,
-.btn .card.btn:active {
-  background-color: rgb(144, 60, 123);
-  color: rgb(254, 254, 254);
+  color: rgb(254, 254, 254) !important;
+  background-color: rgb(144, 60, 123) !important;
 }
 
 /* Botón desplegable de medidas */
@@ -118,7 +113,7 @@ nav .menu {
 }
 nav .menu:hover, nav .menu:focus {
   background-size: 100% 2px;
-  color: rgb(254, 254, 254);
+  color: rgb(254, 254, 254) !important;
 }
 nav .dropdown-menu {
   background-color: rgb(148, 79, 131);
@@ -296,7 +291,6 @@ nav .navbar-toggler-icon {
   text-justify: auto;
 }
 
-/* Botón tarjeta de detalle */
 /* Modal */
 .modal-dialog .btn:hover {
   cursor: pointer;
