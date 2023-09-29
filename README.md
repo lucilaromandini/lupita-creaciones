@@ -79,9 +79,9 @@ Para iniciar SASS, deberás utilizar el siguiente comando: "npm run sass:watch".
 Sentite libre de aplicar modificaciones y llevar el proyecto a distintos horizontes.
 
 ### Vínculos a Lupita Creaciones 🖼
-https://lupitacreaciones.netlify.app/  
+https://lupitacreaciones.netlify.app/       
 https://lucilaromandini.github.io/lupita-creaciones/  
-https://github.com/lucilaromandini/lupita-creaciones
+https://github.com/lucilaromandini/lupita-creaciones.git
 
                  
 

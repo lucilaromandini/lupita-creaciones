@@ -71,7 +71,7 @@ nav {
     }
 
     .nav-item a {
-        color: $white;
+        color: $white !important;
     }
 
     .menu {
@@ -85,7 +85,7 @@ nav {
         &:hover,
         &:focus {
             background-size: 100% 2px;
-            color: $white !important;
+            color: $white;
         }
     }
 

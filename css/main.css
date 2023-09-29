@@ -101,7 +101,7 @@ nav .fuentesNav {
   padding-left: 3rem;
 }
 nav .nav-item a {
-  color: rgb(254, 254, 254);
+  color: rgb(254, 254, 254) !important;
 }
 nav .menu {
   text-decoration: none;
@@ -113,7 +113,7 @@ nav .menu {
 }
 nav .menu:hover, nav .menu:focus {
   background-size: 100% 2px;
-  color: rgb(254, 254, 254) !important;
+  color: rgb(254, 254, 254);
 }
 nav .dropdown-menu {
   background-color: rgb(148, 79, 131);
