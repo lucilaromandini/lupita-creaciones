@@ -62,7 +62,7 @@ En cuanto al footer, se modificó bastante, ya que en los bocetos originales el 
 El proyecto Lupita creaciones es un sitio web donde podés encontrar los mejores cuadros decorativos infantiles y láminas de nacimiento. Sigue los siguientes pasos para instalar y ejecutar el sitio en tu entorno local:
 
 
-##Requisitos previos 👾
+## Requisitos previos 👾
 
 Asegurate de tener instalado lo siguiente en tu pc:
 
@@ -70,7 +70,7 @@ Node.js
 npm (generalmente se instala con Node.js).
 
 
-##Pasos a seguir ✅
+## Pasos a seguir ✅
 
 ### 1: Clonar el repositorio 📂 
 Podés utilizar el siguiente comando "git clone git@github.com:lucilaromandini/lupita-creaciones.git".
