@@ -57,7 +57,8 @@ En cuanto al footer, se modificó bastante, ya que en los bocetos originales el 
 
 * Netifly
 
-##Instalación ⚙️
+
+## Instalación ⚙️
 El proyecto Lupita creaciones es un sitio web donde podés encontrar los mejores cuadros decorativos infantiles y láminas de nacimiento. Sigue los siguientes pasos para instalar y ejecutar el sitio en tu entorno local:
 
 ##Requisitos previos 👾
